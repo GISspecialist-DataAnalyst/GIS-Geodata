@@ -21,18 +21,22 @@ Urban areas around the world are continually evolving, requiring innovative appr
 - Zoning and land-use planning
 
 ## Table of Contents
-1. [Heat Distribution Network](#heat-distribution-network)
-2. [Heating Demand Analysis](#heating-demand-analysis)
-3. [Heat Map Visualization](#heat-map-visualization)
-4. [Automated Network Generation](#automated-network-generation)
-5. [Zoning and Land Use Mapping](#zoning-and-land-use-mapping)
-6. [Methodologies](#methodologies)
-7. [Data Sources](#data-sources)
-8. [Challenges and Solutions](#challenges-and-solutions)
+- [A: Heat Distribution Network](#a-heat-distribution-network)
+- [B: Heating Demand Analysis](#b-heating-demand-analysis)
+- [C: Heat Map Visualization](#c-heat-map-visualization)
+- [D: Automated Network Generation](#d-automated-network-generation)
+- [E: Zoning and Land Use Mapping](#e-zoning-and-land-use-mapping)
+- [Methodologies](#methodologies)
+- [Data Sources](#data-sources)
+- [Challenges and Solutions](#challenges-and-solutions)
+
+---
 
 ## A: Heat Distribution Network
 
 This map models an anonymized heat distribution network, providing a blueprint for how district heating systems can be deployed across urban areas. The map visualizes thermal energy distribution and the connection between energy production facilities and consumers.
+
+![Heat Distribution Network](images/heat_distribution_network.png)
 
 ### Key Features:
 - **Network Design and Simulation**: Using GIS Network Analysis tools, the system simulates how thermal energy is distributed from key sources to residential, commercial, and industrial zones.
@@ -46,9 +50,13 @@ This map models an anonymized heat distribution network, providing a blueprint f
 ### Use Case:
 This model provides an anonymized framework for municipal planners and engineers to simulate heat distribution, allowing for better infrastructure investment planning.
 
+---
+
 ## B: Heating Demand Analysis
 
 This map presents an analysis of heating demand in urban sectors using buffer zones, supporting the understanding of how proximity to heating infrastructure impacts demand.
+
+![Heating Demand Analysis](images/heating_demand_analysis.png)
 
 ### Key Features:
 - **Demand Projection**: The analysis uses buffer zones to project energy demand in various city areas.
@@ -62,9 +70,13 @@ This map presents an analysis of heating demand in urban sectors using buffer zo
 ### Use Case:
 Municipal planners can use this model to identify high-priority zones for energy infrastructure improvements.
 
+---
+
 ## C: Heat Map Visualization
 
 This heat map visualizes energy demand density across an urban region, using color gradients to represent areas with varying levels of energy consumption.
+
+![Heat Map Visualization](images/heat_map_visualization.png)
 
 ### Key Features:
 - **Heat Map Generation**: Kernel density estimation tools highlight energy consumption intensity.
@@ -78,9 +90,13 @@ This heat map visualizes energy demand density across an urban region, using col
 ### Use Case:
 This heat map helps urban planners and energy providers prioritize investment in energy-efficient technologies.
 
+---
+
 ## D: Automated Network Generation
 
 This visualization demonstrates an automated network generation workflow, using GIS tools to design heating infrastructure based on spatial data.
+
+![Automated Network Generation](images/automated_network_generation.png)
 
 ### Key Features:
 - **Automatic Network Generation**: GIS automation generates heat distribution networks based on building locations and street layouts.
@@ -94,9 +110,13 @@ This visualization demonstrates an automated network generation workflow, using 
 ### Use Case:
 This workflow demonstrates how GIS automation reduces the time and cost associated with planning large-scale energy networks.
 
+---
+
 ## E: Zoning and Land Use Mapping
 
 This map shows an anonymized zoning and land-use classification, depicting how urban areas are divided into residential, commercial, industrial, and green spaces.
+
+![Zoning and Land Use Mapping](images/zoning_land_use_mapping.png)
 
 ### Key Features:
 - **Land Use Classification**: Using cadastral and municipal data, the map classifies different areas into land-use zones, color-coded for clarity.
