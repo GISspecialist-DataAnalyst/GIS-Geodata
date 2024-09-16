@@ -96,7 +96,7 @@ This workflow demonstrates how GIS automation reduces the time and cost associat
 
 This map shows an anonymized zoning and land-use classification, depicting how urban areas are divided into residential, commercial, industrial, and green spaces.
 
-![Zoning and Land Use Mapping](images/D%20Zoning%20and%20Land%20Use%20Mapping%20-%20Scenario%20Development-%20Melanie%20Netzband%20-%20Case%20Study.png)
+![Zoning and Land Use Mapping](images/D%20Zoning%20and%20Land%20Use%20Mapping%20-%20Scenario%20Development-%20Melanie%20Netzband%20-%20Case%20Study%20-%20clean.png)
 
 ### Key Features:
 - **Land Use Classification**: Using cadastral and municipal data, the map classifies different areas into land-use zones, color-coded for clarity.
