@@ -21,34 +21,34 @@ Urban areas around the world are continually evolving, requiring innovative appr
 - Zoning and land-use planning
 
 ## Table of Contents
-- [A: Heat Distribution Network](#a-heat-distribution-network)
+- [A: Heat Distribution Network & Heat Map Visualization](#a-heat-distribution-network--heat-map-visualization)
 - [B: Heating Demand Analysis](#b-heating-demand-analysis)
-- [C: Heat Map Visualization](#c-heat-map-visualization)
-- [D: Automated Network Generation](#d-automated-network-generation)
-- [E: Zoning and Land Use Mapping](#e-zoning-and-land-use-mapping)
+- [C: Automated Network Generation](#c-automated-network-generation)
+- [D: Zoning and Land Use Mapping](#d-zoning-and-land-use-mapping)
 - [Methodologies](#methodologies)
 - [Data Sources](#data-sources)
 - [Challenges and Solutions](#challenges-and-solutions)
 
 ---
 
-## A: Heat Distribution Network
+## A: Heat Distribution Network & Heat Map Visualization
 
-This map models an anonymized heat distribution network, providing a blueprint for how district heating systems can be deployed across urban areas. The map visualizes thermal energy distribution and the connection between energy production facilities and consumers.
+This image serves a dual purpose, illustrating both a heat distribution network and a heat map visualization of energy demand across a city. The map visualizes thermal energy distribution from heat sources to end consumers while also highlighting energy consumption density through color gradients.
 
-![Heat Distribution Network](images/heat_distribution_network.png)
+![Heat Distribution Network & Heat Map Visualization](images/A%20Heat%20Map%20Visualization%20-%20Melanie%20Netzband%20-%20Case%20Study.png)
 
 ### Key Features:
-- **Network Design and Simulation**: Using GIS Network Analysis tools, the system simulates how thermal energy is distributed from key sources to residential, commercial, and industrial zones.
-- **Topology Management**: The network ensures that all parts of the grid are connected without errors, avoiding disconnections that could impact heat supply efficiency.
-- **Sustainability Focus**: The system is modeled to integrate renewable energy sources, reflecting modern trends in decarbonizing urban energy systems.
+- **Network Design and Simulation**: Using GIS Network Analysis tools, the system simulates thermal energy distribution from key sources such as district heating plants to various residential, commercial, and industrial zones. This visualization ensures that all areas are adequately connected and serviced.
+- **Heat Map Generation**: The image also includes a heat map, which uses kernel density estimation to visualize high-density energy demand areas (in red) and lower-density areas (in blue).
+- **Data-Driven Decision Making**: Both the network and the heat map are used together to prioritize infrastructure investments. The heat map helps visualize consumption hotspots, while the network design indicates how heating infrastructure can be extended to meet growing demand.
 
 ### GIS Techniques Applied:
-- **Spatial Network Creation**: Using street and building footprint data (anonymized) to construct a robust network of pipes and heat exchangers.
-- **Energy Balancing**: CAPEX/OPEX simulations were conducted to visualize economic feasibility.
+- **Network Analysis**: Used to design and simulate the layout of the heating infrastructure, ensuring continuous and efficient energy flow across the city.
+- **Kernel Density Estimation**: Applied to generate the heat map, which shows areas with high energy demand.
+- **Raster Analysis**: Energy consumption data was interpolated into a continuous surface to visualize areas where additional infrastructure or energy efficiency measures may be required.
 
 ### Use Case:
-This model provides an anonymized framework for municipal planners and engineers to simulate heat distribution, allowing for better infrastructure investment planning.
+This combined model of heat distribution and energy demand helps urban planners and energy providers visualize how to optimize both energy supply networks and distribution for maximum efficiency and sustainability.
 
 ---
 
@@ -72,31 +72,11 @@ Municipal planners can use this model to identify high-priority zones for energy
 
 ---
 
-## C: Heat Map Visualization
-
-This heat map visualizes energy demand density across an urban region, using color gradients to represent areas with varying levels of energy consumption.
-
-![Heat Map Visualization](images/heat_map_visualization.png)
-
-### Key Features:
-- **Heat Map Generation**: Kernel density estimation tools highlight energy consumption intensity.
-- **Raster Analysis**: The heat map interpolates point data into a continuous surface, showing demand levels across the area.
-- **Data-Driven Decision Making**: This helps prioritize investments in energy efficiency measures.
-
-### GIS Techniques Applied:
-- **Kernel Density Estimation**: Point data is transformed into a raster heat map to display demand intensity.
-- **Spatial Interpolation**: Energy consumption data is interpolated to create a smooth demand surface.
-
-### Use Case:
-This heat map helps urban planners and energy providers prioritize investment in energy-efficient technologies.
-
----
-
-## D: Automated Network Generation
+## C: Automated Network Generation
 
 This visualization demonstrates an automated network generation workflow, using GIS tools to design heating infrastructure based on spatial data.
 
-![Automated Network Generation](images/automated_network_generation.png)
+![Automated Network Generation](images/C%20Automated%20Network%20Generation%20-%20Modelbuilder%20solution%20-%20Melanie%20Netzband%20-%20Case%20Study.png)
 
 ### Key Features:
 - **Automatic Network Generation**: GIS automation generates heat distribution networks based on building locations and street layouts.
@@ -112,11 +92,11 @@ This workflow demonstrates how GIS automation reduces the time and cost associat
 
 ---
 
-## E: Zoning and Land Use Mapping
+## D: Zoning and Land Use Mapping
 
 This map shows an anonymized zoning and land-use classification, depicting how urban areas are divided into residential, commercial, industrial, and green spaces.
 
-![Zoning and Land Use Mapping](images/zoning_land_use_mapping.png)
+![Zoning and Land Use Mapping](images/D%20Zoning%20and%20Land%20Use%20Mapping%20-%20Scenario%20Development-%20Melanie%20Netzband%20-%20Case%20Study.png)
 
 ### Key Features:
 - **Land Use Classification**: Using cadastral and municipal data, the map classifies different areas into land-use zones, color-coded for clarity.
