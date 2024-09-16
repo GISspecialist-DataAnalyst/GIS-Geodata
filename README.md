@@ -56,7 +56,7 @@ This model provides an anonymized framework for municipal planners and engineers
 
 This map presents an analysis of heating demand in urban sectors using buffer zones, supporting the understanding of how proximity to heating infrastructure impacts demand.
 
-![Heating Demand Analysis](images/heating_demand_analysis.png)
+![Heating Demand Analysis](images/B Heating Demand Analysis - Melanie Netzband - Case Study.png)
 
 ### Key Features:
 - **Demand Projection**: The analysis uses buffer zones to project energy demand in various city areas.
