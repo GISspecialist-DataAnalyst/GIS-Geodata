@@ -27,7 +27,6 @@ Urban areas around the world are continually evolving, requiring innovative appr
 - [D: Zoning and Land Use Mapping](#d-zoning-and-land-use-mapping)
 - [Methodologies](#methodologies)
 - [Data Sources](#data-sources)
-- [Challenges and Solutions](#challenges-and-solutions)
 
 ---
 
