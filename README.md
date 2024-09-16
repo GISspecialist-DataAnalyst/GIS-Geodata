@@ -25,8 +25,6 @@ Urban areas around the world are continually evolving, requiring innovative appr
 - [B: Heating Demand Analysis](#b-heating-demand-analysis)
 - [C: Automated Network Generation](#c-automated-network-generation)
 - [D: Zoning and Land Use Mapping](#d-zoning-and-land-use-mapping)
-- [Methodologies](#methodologies)
-- [Data Sources](#data-sources)
 
 ---
 
